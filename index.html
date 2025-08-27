@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- daigyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <h1 class=""> this is the main compulsory</h1>
-    
+</head>
+
+<body class="h-[100vh] flex justify-cente flex-col items-center #F4F5F7">
+    <div class="w-[300px] h-[130px]  bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center"><img src="assets/Group.png" alt=""></div>
+   
+    <from class="bg-white p-8 rounded-xl  w-[350px] ">
+        <div class="">
+            <label class="font-semibold" for="">Mobile Number</label>
+            <br>
+            <input type="text" placeholder="Enter Your Number" class="mt-3 input bg-[#F4F5F7] rounded-3xl" />
+
+
+        </div>
+        <div class="mt-5">
+            <label class="mt-3 font-semibold" for="">4 Digit pin</label>
+            <br>
+            <input type="text" placeholder=" Enter 4 digit pin" class="input mt-3 rounded-3xl bg-[#F4F5F7]" />
+
+        </div>
+        <button class="btn btn-active  mt-5 bg-[#0874F2] text-white w-full rounded-3xl">Login</button>
+    </from>
+
+
 </body>
+
 </html>
